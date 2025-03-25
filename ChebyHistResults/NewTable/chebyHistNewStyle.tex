@@ -1,0 +1,35 @@
+% \\\\\\\\\\\\\\  Design 2
+\begin{table}[!htb]
+    \centering
+    \caption{Comparison of
+    Chebyshev-based and histogram-based sampling strategies: average rank and number of significant wins (\#w) according to $RMSE_{\phi}$, $SERA$, and $RMSE$ over four regression algorithms.}
+    \label{tab:Sum_ChebyUS_HistUS_METRIC}
+    \sisetup{table-format=1.2, detect-weight=true, detect-inline-weight=math}
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} ll
+        S[table-format=1.2] @{\hspace{-1em}} r
+        S[table-format=1.2] @{\hspace{-1em}} r}
+        \toprule
+        \multirow{2}{*}{\textbf{Algorithm}} & \multirow{2}{*}{\textbf{Approach}} & \multicolumn{2}{c}{\textbf{$RMSE_{\phi}$}} & \multicolumn{2}{c}{\textbf{$SERA$}} \\
+        \cmidrule{3-6}
+        & &
+        avg\_rank & \#w &
+         avg\_rank & \#w \\
+        \midrule
+        \multirow{4}{*}{\textbf{AMRules}}
+        & ChebyUS  & 2.83 & (9)  & 4.92 & (0) \\
+        & HistUS   & 3.08 & (0)  & 5.42 & (0)  \\
+        \midrule
+        \multirow{4}{*}{\textbf{Perceptron}}
+        & ChebyUS  & 4.21 & (10) & 4.42 & (0)  \\
+        & HistUS   & 4.46 & (2)  & 4.42 & (0)  \\
+        \midrule
+        \multirow{4}{*}{\textbf{FIMT-DD}}
+        & ChebyUS  & 4.71 & (4)  & 4.83 & (0)  \\
+        & HistUS   & 3.79 & (6)  & 4.50 & (0)  \\
+        \midrule
+        \multirow{4}{*}{\textbf{TargetMean}}
+        & ChebyUS  & 5.92 & (9)  & 3.29 & (0) \\
+        & HistUS   & 7.00 & (1)  & 4.21 & (0)  \\
+        \bottomrule
+    \end{tabular*}
+\end{table}

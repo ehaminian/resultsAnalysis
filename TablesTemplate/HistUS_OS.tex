@@ -1,0 +1,35 @@
+\begin{table}[!h]
+    \centering
+    \caption{Comparison of histogram-based sampling strategies: average rank and number of significant wins (\#w) according to $RMSE_{\phi}$, $SERA$, and $RMSE$ over four regression algorithms.}
+    \label{tab:Sum_HistUS_OS_METRIC}
+     \sisetup{table-format=1.2, detect-weight=true, detect-inline-weight=math}
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} ll 
+        S[table-format=1.2] @{\hspace{-1em}} r 
+        S[table-format=1.2] @{\hspace{-1em}} r 
+        S[table-format=1.2] @{\hspace{-1em}} r}
+        \toprule
+        \multirow{2}{*}{\textbf{Algorithm}} & \multirow{2}{*}{\textbf{Approach}} & \multicolumn{2}{c}{\textbf{$RMSE_{\phi}$}} & \multicolumn{2}{c}{\textbf{$SERA$}}  & \multicolumn{2}{c}{\textbf{$RMSE$}} \\
+        \cmidrule{3-8} 
+        & &  
+        avg\_rank & \#w &
+         avg\_rank & \#w &
+         avg\_rank & \#w \\
+        \midrule
+        \multirow{2}{*}{\textbf{AMRules}} 
+        & HistUS  & 3.25 & (0) & 4.75 & (0) & 3.25 & (0)  \\
+        & HistOS  & 3.17 & (0) & 6.42 & (0) & 2.75 & (0)  \\
+        \midrule
+        \multirow{2}{*}{\textbf{Perceptron}} 
+        & HistUS  & 4.71 & (0) & 3.75 & (0) & 4.83 & (0)  \\
+        & HistOS  & 4.38 & (0) & 4.33 & (0) & 4.5 & (0)  \\
+        \midrule
+        \multirow{2}{*}{\textbf{FIMT-DD}} 
+        & HistUS  & 4.42 & (0) & 3.75 & (0) & 4.33 & (0)  \\
+        & HistOS  & 2.83 & (0) & 5.67 & (0) & 3.25 & (0)  \\
+        \midrule
+        \multirow{2}{*}{\textbf{TargetMean}} 
+        & HistUS  & 6.83 & (0) & 3.67 & (0) & 6.5 & (0)  \\
+        & HistOS  & 6.42 & (0) & 3.67 & (0) & 6.58 & (0)  \\
+        \bottomrule
+    \end{tabular*}
+\end{table}

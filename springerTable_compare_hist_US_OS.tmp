@@ -1,0 +1,17 @@
+\begin{sidewaystable}
+\centering
+\caption{Evaluation: $__METRIC__$, Method: HistUS vs HistOS}
+\label{tab:detail_HistUS_HistOS___LABEL__}
+\begin{tabular}
+{lcccccccc}
+\toprule
+& \multicolumn{2}{@{}c@{}}{AMRules} & \multicolumn{2}{@{}c@{}}{Perceptron} & \multicolumn{2}{@{}c@{}}{FIMT-DD} & \multicolumn{2}{@{}c@{}}{TargetMean} \\
+\cmidrule{2-9}
+Dataset & HistUS & HistOS & HistUS & HistOS & HistUS & HistOS & HistUS & HistOS \\
+\midrule
+__TABLE_ROWS__
+\midrule
+Avg.Rank & __RANK_ROW__ \\
+\bottomrule
+\end{tabular}
+\end{sidewaystable}

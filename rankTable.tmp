@@ -1,0 +1,30 @@
+    \begin{table}[!htb]
+        \centering
+        \caption{Summary of $__METRIC__$ results, for four regression algorithms with no sampling (Baseline) and with
+        our proposed sampling histogram-based strategies (HistUS and HistOS).}
+        \label{__LABEL__}
+        \begin{tabular}{ |l|c|c|c|c|c|c|c|c|}
+        \hline
+            \multirow{2}{4em}{ }&
+            \multicolumn{2}{|c|}{AMRule} &
+            \multicolumn{2}{|c|}{Perceptron} &
+            \multicolumn{2}{|c|}{FIMT-DD} &
+            \multicolumn{2}{|c|}{TargetMean}
+        \\
+        \cline{2-9}
+        & Baseline & HistUS & Baseline & HistUS & Baseline & HistUS &
+        Baseline & HistUS \\
+        \hline
+        {\bf Avg. Rank} & __US__RANKS__ \\
+        \hline
+        {\bf Sign. Wins} & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+        \hline
+        & Baseline & histOS & Baseline & histOS & Baseline &
+        histOS & Baseline & histOS \\
+        \hline
+           {\bf Avg. Rank} & __OS__RANKS__ \\
+        \hline
+        {\bf Sign. Wins} & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+        \hline
+        \end{tabular}
+    \end{table}

@@ -1,0 +1,22 @@
+    \begin{table}[!htb]
+        \centering
+        \caption{Comparison of $__METRIC__$ results of our proposed __TYPE__-sampling chebyshev-based and histogram-based strategies (__APPROCHE1__ and __APPROCHE2__) over four regression algorithms.}
+        \label{__LABEL__}
+        \begin{tabular}{ |l|c|c|c|c|c|c|c|c|}
+        \hline
+            \multirow{2}{4em}{ }&
+            \multicolumn{2}{|c|}{AMRule} &
+            \multicolumn{2}{|c|}{Perceptron} &
+            \multicolumn{2}{|c|}{FIMT-DD} &
+            \multicolumn{2}{|c|}{TargetMean}
+        \\
+        \cline{2-9}
+        & __APPROCHE1__ & __APPROCHE2__ & __APPROCHE1__ & __APPROCHE2__ & __APPROCHE1__ & __APPROCHE2__ &
+        __APPROCHE1__ & __APPROCHE2__ \\
+        \hline
+        {\bf Avg. Rank} & __CHEBY__HIST__RANKS__ \\
+        \hline
+        {\bf Sign. Wins} & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+        \hline
+        \end{tabular}
+    \end{table}

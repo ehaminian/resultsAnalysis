@@ -1,0 +1,22 @@
+    \begin{table}[!htb]
+        \centering
+        \caption{Comparison of $SERA$ results of our proposed Over-sampling chebyshev-based and histogram-based strategies (ChebyOS and HistOS) over four regression algorithms.}
+        \label{tab:Sum_ChebyOS_HistOS_SERA_Over}
+        \begin{tabular}{ |l|c|c|c|c|c|c|c|c|}
+        \hline
+            \multirow{2}{4em}{ }&
+            \multicolumn{2}{|c|}{AMRule} &
+            \multicolumn{2}{|c|}{Perceptron} &
+            \multicolumn{2}{|c|}{FIMT-DD} &
+            \multicolumn{2}{|c|}{TargetMean}
+        \\
+        \cline{2-9}
+        & ChebyOS & HistOS & ChebyOS & HistOS & ChebyOS & HistOS &
+        ChebyOS & HistOS \\
+        \hline
+        {\bf Avg. Rank} & 6.0 & 4.5 & 5.08 & 3.08 & 5.08 & 3.58 & 5.33 & 3.33 \\
+        \hline
+        {\bf Sign. Wins} & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+        \hline
+        \end{tabular}
+    \end{table}

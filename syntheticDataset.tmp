@@ -1,0 +1,20 @@
+\begin{table}[!htb]
+\caption{Summary of the results obtained by the proposed sampling strategies (HistUS, HistOS, ChebyUS, and
+ChebyOS) as well as the Baseline method over the synthetic dataset. The table shows the average
+$RMSE_{\phi}$, $SERA$ and $RMSE$ values for the FIMT-DD regression algorithm.}
+\label{tab:result_phi_sera_synthetic}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lccccc}
+\toprule
+ & Baseline & HistUS & HistOS & ChebyUS & ChebyOS \\
+\midrule
+{\bf Avg. $RMSE_{\phi}$} & __RMSE_PHI_MEAN__ \\
+{\bf Avg. Rank} & __RMSE_PHI_RANK__ \\
+\midrule
+{\bf Avg. $SERA$} & __SERA_MEAN__ \\
+{\bf Avg. Rank} & __SERA_RANK__ \\
+\midrule
+{\bf Avg. $RMSE$} & __RMSE_MEAN__ \\
+{\bf Avg. Rank} & __RMSE_RANK__ \\
+\bottomrule
+\end{tabular*}
+\end{table}

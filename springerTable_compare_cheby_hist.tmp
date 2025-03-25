@@ -1,0 +1,17 @@
+\begin{sidewaystable}
+\centering
+\caption{Evaluation: $__METRIC__$, Methods: __METHODS__}
+\label{tab:detail___LABEL__}
+\begin{tabular}
+{lcccccccc}
+\toprule
+& \multicolumn{2}{@{}c@{}}{AMRules} & \multicolumn{2}{@{}c@{}}{Perceptron} & \multicolumn{2}{@{}c@{}}{FIMT-DD} & \multicolumn{2}{@{}c@{}}{TargetMean} \\
+\cmidrule{2-9}
+__TABLE_HEADER__
+\midrule
+__TABLE_ROWS__
+\midrule
+Avg.Rank & __RANK_ROW__ \\
+\bottomrule
+\end{tabular}
+\end{sidewaystable}

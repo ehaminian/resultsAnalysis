@@ -1,0 +1,22 @@
+    \begin{table}[!htb]
+        \centering
+        \caption{Comparison of $RMSE_{\phi}$ results of our proposed Over-sampling chebyshev-based and histogram-based strategies (ChebyOS and HistOS) over four regression algorithms.}
+        \label{tab:Sum_ChebyOS_HistOS_phi_Over}
+        \begin{tabular}{ |l|c|c|c|c|c|c|c|c|}
+        \hline
+            \multirow{2}{4em}{ }&
+            \multicolumn{2}{|c|}{AMRule} &
+            \multicolumn{2}{|c|}{Perceptron} &
+            \multicolumn{2}{|c|}{FIMT-DD} &
+            \multicolumn{2}{|c|}{TargetMean}
+        \\
+        \cline{2-9}
+        & ChebyOS & HistOS & ChebyOS & HistOS & ChebyOS & HistOS &
+        ChebyOS & HistOS \\
+        \hline
+        {\bf Avg. Rank} & 3.5 & 3.0 & 5.42 & 4.33 & 2.92 & 3.5 & 7.25 & 6.08 \\
+        \hline
+        {\bf Sign. Wins} & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+        \hline
+        \end{tabular}
+    \end{table}

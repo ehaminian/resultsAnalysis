@@ -1,0 +1,28 @@
+\begin{sidewaystable}
+\centering
+\caption{Evaluation: $RMSE_{\phi}$, Methods: ChebyUS VS HistUS}
+\label{tab:detail_ChebyUS_HistUS_RMSE_phi}
+\begin{tabular}
+{lcccccccc}
+\toprule
+& \multicolumn{2}{@{}c@{}}{AMRules} & \multicolumn{2}{@{}c@{}}{Perceptron} & \multicolumn{2}{@{}c@{}}{FIMT-DD} & \multicolumn{2}{@{}c@{}}{TargetMean} \\
+\cmidrule{2-9}
+Dataset & ChebyUS & HistUS & ChebyUS & HistUS & ChebyUS & HistUS & ChebyUS & HistUS \\
+\midrule
+puma32H & 0.40 $\pm$ 0.44 & \textbf{0.39 $\pm$ 0.51} & 0.57 $\pm$ 0.00 & 0.57 $\pm$ 0.00 & \textbf{0.66 $\pm$ 0.67} & 0.70 $\pm$ 0.36 & 1.00 $\pm$ 0.00 & 1.00 $\pm$ 0.00 \\ 
+cpusum & \textbf{0.29 $\pm$ 0.08} & $\triangleleft$0.56 $\pm$ 0.12 & \textbf{0.45 $\pm$ 1.00} & $\triangleleft$0.66 $\pm$ 1.00 & 1.00 $\pm$ 0.57 & $\triangleright$\textbf{0.61 $\pm$ 0.05} & \textbf{0.26 $\pm$ 0.01} & $\triangleleft$0.73 $\pm$ 0.03 \\ 
+mv & 0.03 $\pm$ 0.17 & \textbf{0.03 $\pm$ 0.04} & \textbf{0.07 $\pm$ 0.01} & $\triangleleft$0.12 $\pm$ 0.03 & 0.15 $\pm$ 0.16 & $\triangleright$\textbf{0.06 $\pm$ 0.37} & \textbf{0.65 $\pm$ 0.01} & $\triangleleft$0.83 $\pm$ 0.02 \\ 
+elevator & 0.42 $\pm$ 0.16 & \textbf{0.00 $\pm$ 0.00} & 0.32 $\pm$ 0.06 & $\triangleright$\textbf{0.00 $\pm$ 0.00} & 0.07 $\pm$ 0.00 & \textbf{0.00 $\pm$ 0.00} & 0.07 $\pm$ 0.00 & \textbf{0.00 $\pm$ 0.00} \\ 
+energydata-complete & \textbf{0.78 $\pm$ 0.01} & 0.79 $\pm$ 0.42 & \textbf{0.77 $\pm$ 0.02} & $\triangleleft$0.78 $\pm$ 0.19 & 0.95 $\pm$ 0.40 & $\triangleright$\textbf{0.85 $\pm$ 0.45} & \textbf{0.72 $\pm$ 1.00} & 0.78 $\pm$ 0.71 \\ 
+FriedmanArtificialDomain & 0.24 $\pm$ 0.19 & $\triangleright$\textbf{0.22 $\pm$ 0.88} & 0.24 $\pm$ 0.04 & $\triangleright$\textbf{0.22 $\pm$ 0.48} & 0.24 $\pm$ 1.00 & \textbf{0.23 $\pm$ 0.87} & \textbf{1.00 $\pm$ 0.04} & 1.00 $\pm$ 0.19 \\ 
+california & \textbf{0.45 $\pm$ 0.49} & $\triangleleft$0.56 $\pm$ 0.48 & \textbf{0.48 $\pm$ 0.76} & $\triangleleft$0.57 $\pm$ 0.78 & \textbf{0.50 $\pm$ 1.00} & $\triangleleft$0.55 $\pm$ 1.00 & \textbf{0.78 $\pm$ 0.19} & $\triangleleft$0.98 $\pm$ 0.23 \\ 
+bike & 0.03 $\pm$ 0.05 & \textbf{0.03 $\pm$ 0.11} & 0.06 $\pm$ 0.05 & $\triangleright$\textbf{0.03 $\pm$ 0.02} & 0.49 $\pm$ 1.00 & $\triangleright$\textbf{0.29 $\pm$ 0.36} & \textbf{0.59 $\pm$ 0.02} & $\triangleleft$0.79 $\pm$ 0.13 \\ 
+3d-spatial-network & \textbf{0.48 $\pm$ 0.52} & $\triangleleft$0.51 $\pm$ 0.25 & 0.67 $\pm$ 0.00 & $\triangleright$\textbf{0.66 $\pm$ 0.10} & \textbf{0.29 $\pm$ 0.15} & 0.30 $\pm$ 1.00 & \textbf{0.73 $\pm$ 0.01} & $\triangleleft$0.74 $\pm$ 0.13 \\ 
+pp-gas-emission & 0.42 $\pm$ 0.28 & $\triangleright$\textbf{0.40 $\pm$ 0.18} & 0.51 $\pm$ 0.40 & $\triangleright$\textbf{0.48 $\pm$ 0.08} & 0.52 $\pm$ 1.00 & $\triangleright$\textbf{0.51 $\pm$ 1.00} & 0.93 $\pm$ 0.28 & $\triangleright$\textbf{0.88 $\pm$ 0.24} \\ 
+GPU-Kernel-Performance & \textbf{0.39 $\pm$ 0.40} & $\triangleleft$0.42 $\pm$ 0.38 & \textbf{0.47 $\pm$ 0.01} & $\triangleleft$0.58 $\pm$ 0.03 & 0.27 $\pm$ 0.35 & $\triangleright$\textbf{0.08 $\pm$ 0.03} & \textbf{0.69 $\pm$ 0.01} & $\triangleleft$0.86 $\pm$ 0.02 \\ 
+polution & \textbf{0.50 $\pm$ 0.31} & $\triangleleft$0.59 $\pm$ 0.24 & \textbf{0.50 $\pm$ 0.08} & $\triangleleft$0.63 $\pm$ 0.03 & \textbf{0.49 $\pm$ 0.30} & $\triangleleft$0.55 $\pm$ 0.65 & \textbf{0.63 $\pm$ 0.03} & $\triangleleft$0.76 $\pm$ 0.16 \\ 
+\midrule
+Avg.Rank & 2.83 & 3.08 & 4.21 & 4.46 & 4.71 & 3.79 & 5.92 & 7.0 \\
+\bottomrule
+\end{tabular}
+\end{sidewaystable}

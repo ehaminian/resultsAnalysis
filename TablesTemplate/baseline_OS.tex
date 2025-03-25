@@ -1,0 +1,36 @@
+\begin{table}[!bt]
+    \centering
+    \caption{
+    Summary of results of histogram-based sampling strategy HistOS compared with no sampling (Baseline): average rank and number of significant wins (\#w) according to $RMSE_{\phi}$, $SERA$, and $RMSE$ over four regression algorithms.}
+    \label{tab:Sum_BASELINE_HistOS_METRIC}
+    \sisetup{table-format=1.2, detect-weight=true, detect-inline-weight=math}
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} ll
+        S[table-format=1.2] @{\hspace{-1em}} r
+        S[table-format=1.2] @{\hspace{-1em}} r
+        S[table-format=1.2] @{\hspace{-1em}} r}
+         \toprule
+        \multirow{2}{*}{\textbf{Algorithm}} & \multirow{2}{*}{\textbf{Approach}} & \multicolumn{2}{c}{\textbf{$RMSE_{\phi}$}} & \multicolumn{2}{c}{\textbf{$SERA$}}  & \multicolumn{2}{c}{\textbf{$RMSE$}} \\
+        \cmidrule{3-8}
+        & &
+        avg\_rank & \#w &
+         avg\_rank & \#w &
+         avg\_rank & \#w \\
+        \midrule
+        \multirow{2}{*}{\textbf{AMRules}}
+        & Baseline & 4.25 & (0) & 5.92 & (0) & 2.29 & (0)  \\
+        & HistOS  & 2.58 & (0) & 3.92 & (0) & 3.67 & (0)  \\
+        \midrule
+        \multirow{2}{*}{\textbf{Perceptron}}
+        & Baseline & 5.5 & (0) & 5.42 & (0) & 4.21 & (0)  \\
+        & HistOS  & 3.75 & (0) & 2.75 & (0) & 5.71 & (0)  \\
+        \midrule
+        \multirow{2}{*}{\textbf{FIMT-DD}}
+        & Baseline & 4.33 & (0) & 5.17 & (0) & 2.88 & (0)  \\
+        & HistOS  & 2.33 & (0) & 3.25 & (0) & 4.0 & (0)  \\
+        \midrule
+        \multirow{2}{*}{\textbf{TargetMean}}
+        & Baseline & 7.38 & (0) & 6.46 & (0) & 6.04 & (0)  \\
+        & HistOS  & 5.88 & (0) & 3.12 & (0) & 7.21 & (0)  \\
+        \bottomrule
+    \end{tabular*}
+\end{table}

@@ -1,0 +1,22 @@
+    \begin{table}[!htb]
+        \centering
+        \caption{Comparison of $RMSE_{\phi}$ results of our proposed Under-sampling chebyshev-based and histogram-based strategies (ChebyUS and HistUS) over four regression algorithms.}
+        \label{tab:Sum_ChebyUS_HistUS_phi_Under}
+        \begin{tabular}{ |l|c|c|c|c|c|c|c|c|}
+        \hline
+            \multirow{2}{4em}{ }&
+            \multicolumn{2}{|c|}{AMRule} &
+            \multicolumn{2}{|c|}{Perceptron} &
+            \multicolumn{2}{|c|}{FIMT-DD} &
+            \multicolumn{2}{|c|}{TargetMean}
+        \\
+        \cline{2-9}
+        & ChebyUS & HistUS & ChebyUS & HistUS & ChebyUS & HistUS &
+        ChebyUS & HistUS \\
+        \hline
+        {\bf Avg. Rank} & 2.83 & 3.08 & 4.21 & 4.46 & 4.71 & 3.79 & 5.92 & 7.0 \\
+        \hline
+        {\bf Sign. Wins} & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+        \hline
+        \end{tabular}
+    \end{table}

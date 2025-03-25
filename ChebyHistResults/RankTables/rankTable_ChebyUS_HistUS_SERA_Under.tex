@@ -1,0 +1,22 @@
+    \begin{table}[!htb]
+        \centering
+        \caption{Comparison of $SERA$ results of our proposed Under-sampling chebyshev-based and histogram-based strategies (ChebyUS and HistUS) over four regression algorithms.}
+        \label{tab:Sum_ChebyUS_HistUS_SERA_Under}
+        \begin{tabular}{ |l|c|c|c|c|c|c|c|c|}
+        \hline
+            \multirow{2}{4em}{ }&
+            \multicolumn{2}{|c|}{AMRule} &
+            \multicolumn{2}{|c|}{Perceptron} &
+            \multicolumn{2}{|c|}{FIMT-DD} &
+            \multicolumn{2}{|c|}{TargetMean}
+        \\
+        \cline{2-9}
+        & ChebyUS & HistUS & ChebyUS & HistUS & ChebyUS & HistUS &
+        ChebyUS & HistUS \\
+        \hline
+        {\bf Avg. Rank} & 4.92 & 5.42 & 4.42 & 4.42 & 4.83 & 4.5 & 3.29 & 4.21 \\
+        \hline
+        {\bf Sign. Wins} & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 0 \\
+        \hline
+        \end{tabular}
+    \end{table}
